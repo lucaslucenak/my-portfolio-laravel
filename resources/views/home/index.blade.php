@@ -1,8 +1,21 @@
 <x-layout>
     <section id="about">
+        <div className="container header__container">
+            <h5>Hey, I'm</h5>
+            <h1>Lucas Lucena</h1>
+            <h5 className="text-light">Backend Developer</h5>
+            <CTA />
+            <HeaderSocials />
+
+            <div className="me">
+                <img src="{{asset('img/me.png')}}" alt="me"/>
+            </div>
+
+            <a href="#contact" className="scroll__down">Scroll Down</a>
+        </div>
+
         <h5>Get to Know</h5>
         <h2>About Me</h2>
-
         <div class="container about__container">
             <div class="about__me">
                 <div class="about__me-image">
